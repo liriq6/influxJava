@@ -43,7 +43,6 @@ public class ApiApplication {
                             .addField("value", i)
                             .build();
                     batchPoints.point(point);
-//                    influxDB.write(batchPoints);
                     try {
                         Thread.sleep((random.nextInt(2)+1)*1000);
                     } catch (InterruptedException e) {
